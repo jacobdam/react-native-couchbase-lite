@@ -19,6 +19,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/fraserxu/react-native-couchbase-lite.git' }
   s.source_files = 'ios/**/*.{h,m}'
   s.dependency 'React'
-  s.dependency 'couchbase-lite-ios'
-  s.dependency 'couchbase-lite-ios/Listener'
+  s.dependency 'couchbase-lite-ios', '~> 1.4.4'
 end
